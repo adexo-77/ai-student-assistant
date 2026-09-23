@@ -4,7 +4,7 @@ A PHP + MySQL + Gemini web application that lets students study with an AI: ask 
 
 ## Overview
 
-This is a university-level Information Technology project: a single-user, local-first AI study assistant. A student logs in and asks the Gemini model questions in a chat window, optionally attaching a file (PDF, TXT, DOCX, image) to have it summarised or discussed. The assistant provides five subject modes (General, Study, Coding, Course, Health). When working inside a course, the assistant searches that course's uploaded study materials for relevant excerpts, sends only those excerpts to Gemini, and answers from them — a lightweight, course-scoped RAG implementation backed by MySQL rather than a separate vector database.
+This is a single-user, local-first AI study assistant. A student logs in and asks the Gemini model questions in a chat window, optionally attaching a file (PDF, TXT, DOCX, image) to have it summarised or discussed. The assistant provides five subject modes (General, Study, Coding, Course, Health). When working inside a course, the assistant searches that course's uploaded study materials for relevant excerpts, sends only those excerpts to Gemini, and answers from them — a lightweight, course-scoped RAG implementation backed by MySQL rather than a separate vector database.
 
 ## ⭐ Key Technical Feature: Vector-Based RAG
 
@@ -245,10 +245,16 @@ git commit -m "Prepare for GitHub: .gitignore, config.example.php, README"
 
 ## License
 
+Copyright (c) 2026 AdugnaDhaba
+
+This project is licensed under the MIT License.
+
+See the [LICENSE](LICENSE) file for the full license text.
+
 ## Author
 
 **AdugnaDhaba**
 
-AI Student Assistant — University Information Technology Project
+AI Student Assistant
 
-Developed as an Information Technology student project, combining Gemini-powered AI, course management, student learning tools, and Vector-Based Retrieval-Augmented Generation (RAG).
+A Gemini-powered AI learning system combining course management, student learning tools, and Vector-Based Retrieval-Augmented Generation (RAG).
