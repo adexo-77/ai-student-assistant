@@ -1,0 +1,56 @@
+# ============================================================
+#  AI Chat – ignore file
+#  Keeps secrets and local-only files out of the Git repository.
+# ============================================================
+
+# ---- THIS PROJECT'S LOCAL CONFIGURATION (contains the Gemini API key) ----
+config.php
+
+# ---- Environment / secrets files ----
+.env
+.env.*
+!.env.example
+
+# ---- Local backups made during development / debugging ----
+_ui-backup/
+
+# ---- Apache / MySQL log files ----
+*.log
+logs/
+*.sql.log
+
+# ---- OS temporary files ----
+.DS_Store
+.DS_Store?
+._*                # macOS AppleDouble resource-fork files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECycle.Bin/
+
+# ---- IDE / editor files ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.history/
+
+# ---- Node / npm build artifacts (if any are ever added) ----
+node_modules/
+npm-debug.log*
+
+# ---- Local scratch / benchmarking / mock files (NOT part of the app) ----
+/_b_after.txt
+/_b_before.txt
+/_h_err.txt
+/_h_out.txt
+/_q_err.txt
+/_q_out.txt
+/_mock_router.php
+/_quiz_bench_mock.php
+/_run_bench.ps1
+
+# ---- XAMPP session cache (never commit) ----
