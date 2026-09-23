@@ -245,8 +245,10 @@ git commit -m "Prepare for GitHub: .gitignore, config.example.php, README"
 
 ## License
 
-License: Not specified.
-
 ## Author
 
-Developed as an Information Technology student project.
+**AdugnaDhaba**
+
+AI Student Assistant — University Information Technology Project
+
+Developed as an Information Technology student project, combining Gemini-powered AI, course management, student learning tools, and Vector-Based Retrieval-Augmented Generation (RAG).
